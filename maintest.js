@@ -29,7 +29,8 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.use(express.json());
 
 // MongoDB connection URI
-const uri = 'mongodb+srv://aziffarhan:AyamGuring%401947@aziffarhan.ddoxdkj.mongodb.net/'
+const uri = 'mongodb+srv://aziffarhan:AyamGuring%401947@aziffarhan.ddoxdkj.mongodb.net/?retryWrites=true&w=majority'
+
 
 // Connect to MongoDB
 MongoClient.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
