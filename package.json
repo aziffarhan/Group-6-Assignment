@@ -2,9 +2,9 @@
   "name": "test-2-asingment",
   "version": "1.0.0",
   "description": "",
-  "main": "2swasgger.js",
+  "main": "maintest.js",
   "scripts": {
-    "test": "node maintest.js"
+    "start": "node maintest.js"
   },
   "keywords": [],
   "author": "",
