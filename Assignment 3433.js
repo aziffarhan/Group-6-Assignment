@@ -20,7 +20,7 @@ const options = {
       version: '1.0.0',
     },
   },
-  apis: ['./2swasgger.js'],
+  apis: ['./swagger.js'],
 };
 
 const swaggerSpec = swaggerJsdoc(options);

@@ -2,9 +2,9 @@
   "name": "test-2-asingment",
   "version": "1.0.0",
   "description": "",
-  "main": "maintest.js",
+  "main": "Assignment 3433.js",
   "scripts": {
-    "start": "node maintest.js"
+    "start": "node Assignment 3433.js"
   },
   "keywords": [],
   "author": "",
