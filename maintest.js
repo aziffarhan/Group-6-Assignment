@@ -4,8 +4,8 @@ const app = express();
 const jwt = require('jsonwebtoken');
 const {MongoClient, ObjectId} = require('mongodb');
 const MongoURI = process.env.MongoDB
-//const port = process.env.PORT || 1947;
-const port = 1947;
+const port = process.env.PORT || 1947;
+//const port = 1947;
 app.use(cors());
 
 //const swaggerDocument = require('./swagger-api.json');
